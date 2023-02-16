@@ -1,7 +1,4 @@
 #!/usr/bin/env bash
-# infinity loop
-while :
-do
-	echo "To infinity and beyond"
-	sleep 2
-done
+# Bash script that stops 4-to_infinity_and_beyond process changing the script from kill to pkill
+
+pkill -f 4-to_infinity_and_beyond
